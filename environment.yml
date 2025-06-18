@@ -1,0 +1,11 @@
+name: chatbot-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - openai>=1.84.0
+      - python-dotenv>=1.1.0
+      - colorama>=0.4.6
